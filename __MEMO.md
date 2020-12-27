@@ -1,4 +1,4 @@
-DNN統計的音声合成ツールキット Merlin の中身を理解をする
+## DNN統計的音声合成ツールキット Merlin の中身を理解をする
 https://r9y9.github.io/blog/2017/08/16/trying-to-understand-merlin/
 を読む。
 
@@ -17,6 +17,9 @@ x.astype(np.float32).tofile("foobar.bin")
 
 np.fromfile("foobar.bin", dtype=np.float32)
 として、ファイルを読み込んでインスペクトするのが便利
+
+## MerlinのTensorFlowDNN構造まとめ
+http://k17trpsynth.hatenablog.com/entry/2018/03/06/212332
 
 
 
