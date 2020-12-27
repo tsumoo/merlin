@@ -2,4 +2,5 @@ image:
   file: .gitpod.Dockerfile
 
 tasks:
+  - init: pip install numpy
   - init: pip install -r ./requirements.txt
